@@ -1,6 +1,10 @@
 use std::io;
 
-pub fn calculator() {
+fn main(){
+    calculator();
+}
+
+fn calculator() {
     println!("Fast Calculator!");
     println!("Enter the first value: ");
     let mut x: String = String::new();
